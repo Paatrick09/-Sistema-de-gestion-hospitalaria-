@@ -1,2 +1,2 @@
 <?php
-echo "Bienvenido al API de hospitals";
+echo "Bienvenido al API de hospital";
