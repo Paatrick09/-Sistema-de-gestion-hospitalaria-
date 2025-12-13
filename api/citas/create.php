@@ -40,3 +40,4 @@ if (!empty($data->descripcion) && !empty($data->estado) && !empty($data->id_paci
     http_response_code(400);
     echo json_encode(["message" => "Datos incompletos o inválidos."]);
 }
+
