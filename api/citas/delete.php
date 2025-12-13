@@ -25,4 +25,4 @@ if (!empty($data->id_cita)) {
     http_response_code(400);
     echo json_encode(["message" => "Se requiere el ID de la cita."]);
 }
-?>
+

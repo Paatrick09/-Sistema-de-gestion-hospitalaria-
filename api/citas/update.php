@@ -30,4 +30,4 @@ if (!empty($data->id_cita) && (!empty($data->descripcion) || !empty($data->estad
     http_response_code(400);
     echo json_encode(["message" => "Datos incompletos."]);
 }
-?>
+
