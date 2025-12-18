@@ -1,0 +1,14 @@
+<?php
+
+// Credenciales hardcodeadas
+$db_password = "admin123";
+$api_key = "sk-1234567890abcdef";
+
+// SQL Injection
+function getUserById($id) {
+    $conn = new mysqli("localhost", "root", "password", "hospital_db");
+    $query = "SELECT * FROM users WHERE id = " . $_GET['id'];
+    return $conn->query($query);
+}
+
+?>
